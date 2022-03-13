@@ -1,0 +1,12 @@
+h1 {
+    color: orangered;
+}
+
+nav {
+
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+
+}
