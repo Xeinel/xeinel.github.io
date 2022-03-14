@@ -4,6 +4,8 @@ h1 {
 
 body {
     background-color: #333;
+    align-items: center;
+    justify-content: center;
 }
 
 ul {
@@ -37,3 +39,64 @@ footer {
     padding: 20px 0 10px 0;
     text-align: center;
 }
+
+.square {
+    height: 500px;
+    width: 500px;
+    color: white;
+    border: 5px solid orangered;
+    border-image: linear-gradient(to right, #000046, #1cb5e0);;
+    border-image-slice: 1;
+}
+
+.card {
+    background: white;
+    width: 350px;
+    height: 400px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .informations {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .card img {
+    width: 40%;
+    border-radius: 50%;
+    transition: all .3s;
+  }
+
+  .card h1, .card h2 {
+    transition: all .3s;
+  }
+  .card h1 {
+    margin-top: 30px;
+  }
+  .card h2 {
+    font-size: 1.3em;
+  }
+  
+  .card:hover img, .card:hover h1, .card:hover h2 {
+    transform: translateY(-50px);
+  }
+
+  .icon {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  
+  .icon a i {
+    margin: 10px;
+    color: #c32aa3;
+    transition: all .6s;
+    transform: translateY(100px);
+  }
+  
+  .card:hover .icon a i {
+    transform: translateY(15px);
+  }
