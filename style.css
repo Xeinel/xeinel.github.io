@@ -1,5 +1,4 @@
 h1 {
-  font-size: large;
   color: orange;
 }
 
@@ -34,6 +33,10 @@ li a {
     text-decoration: none;
 }
 
+lo {
+  text-align: center;
+}
+
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
@@ -47,8 +50,8 @@ footer {
 }
 
 .square {
-    height: 500px;
-    width: 1500px;
+    height: 750px;
+    width: 1490px;
     color: white;
     border: 5px solid orangered;
     border-image: linear-gradient(to right, #000046, #1cb5e0);;
