@@ -2,6 +2,10 @@ h1 {
     color: orangered;
 }
 
+body {
+    background-color: #333;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -28,8 +32,8 @@ li a:hover {
 }
 
 footer {
-    background-color: white;
-    color: black;
+    background-color: #333;
+    color: white;
     padding: 20px 0 10px 0;
     text-align: center;
 }
