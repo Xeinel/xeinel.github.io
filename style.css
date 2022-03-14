@@ -26,3 +26,10 @@ li a {
 li a:hover {
     background-color: #111;
 }
+
+footer {
+    background-color: white;
+    color: black;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
