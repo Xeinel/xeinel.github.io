@@ -1,10 +1,10 @@
 h1 {
-  background-color: #333;
+  background-color: rgb(32,28,44);
   color: orange;
 }
 
 body {
-    background-color: #333;
+    background-color: rgb(32,28,44);
     align-items: center;
     justify-content: center;
 }
@@ -14,7 +14,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(32,28,44);
 }
 
 h2 {
@@ -44,7 +44,7 @@ li a:hover {
 }
 
 footer {
-    background-color: #333;
+    background-color: rgb(32,28,44);
     color: white;
     padding: 20px 0 10px 0;
     text-align: center;
@@ -66,6 +66,68 @@ a {
 }
 
 .container-fluid {
-  background-color: #333;
+  background-color: rgb(32,28,44);
   width: auto;
+}
+
+.main-title {
+  text-align: center;
+}
+
+h3 {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+}
+
+span{
+  color: rgb(13, 163, 81);
+}
+
+.bg-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: rgb(87, 80, 80);
+  transition: all .4s ease-in-out;
+  z-index: -1;
+  transform: translate(-50%,-50%);
+  font-weight: 800;
+  font-size: 6.3rem;
+}
+
+h4 {
+  text-align: center;
+  color: white;
+}
+
+mark {
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: rgb(13, 163, 81);
+  padding: 3px 9px;
+}
+
+details {
+  box-shadow: 0 0 10px rgb(13, 163, 81);
+  padding: 1em 1em 0;
+  border-radius: 10px;
+  background-color: white;
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+  margin: -1em -.5em 0;
+  padding: .5em;
+}
+
+details[open] {
+  padding: 1em;
+}
+
+details[open] summary {
+  margin-bottom: .5em;
 }
