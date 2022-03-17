@@ -131,3 +131,8 @@ details[open] {
 details[open] summary {
   margin-bottom: .5em;
 }
+
+list {
+  text-align: right;
+  color: rgb(13, 163, 81);
+}
