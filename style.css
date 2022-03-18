@@ -48,6 +48,7 @@ footer {
     color: white;
     padding: 20px 0 10px 0;
     text-align: center;
+    position: relative;
 }
 
 .square {
@@ -59,16 +60,17 @@ footer {
     margin-left: 6px;
     margin-right: 6px;
     margin-top: 5px;
+    background-color: rgb(32,28,44);
 }
 
 a {
   color: white;
 }
 
-.container-fluid {
+/* .container-fluid {
   background-color: rgb(32,28,44);
   width: auto;
-}
+} */
 
 .main-title {
   text-align: center;
