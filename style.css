@@ -187,6 +187,11 @@ intermediate {
 
 new {
   font-size: large;
+  color: rgb(12, 216, 12);
+}
+
+na {
+  font-size: large;
   color: green;
 }
 
