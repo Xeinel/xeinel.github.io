@@ -27,7 +27,28 @@
         
         <img src = "Images/Coding.jpg">
         <p>Bienvenue sur le Portfolio de <strong>Paul GENILLON</strong>.</p>
-
+        <p>
+            <script type="text/javascript">
+                var quote = new Map();
+                quote.set('La technologie seule ne suffit pas','Steve Jobs.');
+                quote.set('The best way to predict the future is to invent it','Alan Kay.');
+                quote.set('My view is that there is no bad time to inovate','Jeff Bezos.');
+                const random = Math.floor(Math.random() * 3);
+                let i = 0;
+                var qu;
+                var au;
+                for(var [q,author] of quote)
+                {
+                    if(i == random)
+                    {
+                        qu = q;
+                        au = author;
+                    }
+                    i += 1;
+                }
+                document.write(qu + ', ' + au)
+            </script>
+        </p>
     </body>
 
     <footer>

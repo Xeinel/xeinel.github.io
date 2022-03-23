@@ -220,3 +220,11 @@ hr:after {
   position: relative;
   top: -13px;
 }
+
+script {
+  color: white;
+}
+
+p {
+  color: white;
+}
