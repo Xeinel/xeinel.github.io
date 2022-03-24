@@ -7,9 +7,15 @@
         <meta name="description" content="Portfolio de Paul GENILLON">
         <link href="style.css" rel="stylesheet">
         <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        <script type="text/javascript" src="main.js"></script>
     </head>
 
     <body>
+        <script type="text/javascript" src="main.js">
+            var [qu,au] = quoteRandom();
+            document.getElementById("quote").innerHTML = qu;
+            document.getElementById("author").innerHTML = au;
+        </script>
         <h1>Paul GENILLON (24/12/2002)</h1>
         <ul>
             <li><a href="index.html">Accueil</a></li>
@@ -21,34 +27,13 @@
         </ul>
         <div class="main-title">
             <h3>
-                PAUL <span>GENILLON</span><span class="bg-text">BIENVENUE</span>
+                PAUL <elt>GENILLON</elt><elt class="bg-text">BIENVENUE</elt>
             </h3>
         </div>
         
         <img src = "Images/Coding.jpg">
         <p>Bienvenue sur le Portfolio de <strong>Paul GENILLON</strong>.</p>
-        <p>
-            <script type="text/javascript">
-                var quote = new Map();
-                quote.set('La technologie seule ne suffit pas','Steve Jobs.');
-                quote.set('The best way to predict the future is to invent it','Alan Kay.');
-                quote.set('My view is that there is no bad time to inovate','Jeff Bezos.');
-                const random = Math.floor(Math.random() * 3);
-                let i = 0;
-                var qu;
-                var au;
-                for(var [q,author] of quote)
-                {
-                    if(i == random)
-                    {
-                        qu = q;
-                        au = author;
-                    }
-                    i += 1;
-                }
-                document.write(qu + ', ' + au)
-            </script>
-        </p>
+        <span id="quote"></span>
     </body>
 
     <footer>
