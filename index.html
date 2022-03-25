@@ -7,15 +7,11 @@
         <meta name="description" content="Portfolio de Paul GENILLON">
         <link href="style.css" rel="stylesheet">
         <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-        <script type="text/javascript" src="main.js"></script>
+        <script src="main.js"></script>
+
     </head>
 
     <body>
-        <script type="text/javascript" src="main.js">
-            var [qu,au] = quoteRandom();
-            document.getElementById("quote").innerHTML = qu;
-            document.getElementById("author").innerHTML = au;
-        </script>
         <h1>Paul GENILLON (24/12/2002)</h1>
         <ul>
             <li><a href="index.html">Accueil</a></li>
@@ -33,7 +29,10 @@
         
         <img src = "Images/Coding.jpg">
         <p>Bienvenue sur le Portfolio de <strong>Paul GENILLON</strong>.</p>
-        <span id="quote"></span>
+        <p><span id="quote"></span>,
+            <span id="author"></span></p>
+
+        <script src="main.js" type="module"></script>
     </body>
 
     <footer>
