@@ -240,3 +240,45 @@ socialnetwork {
 span {
   color: white;
 }
+
+
+#ct{height:150px; width:370px;border:1px solid rgb(12, 216, 12);margin: 100px auto;text-align:center;position:relative;color:#fff;padding:15px;}
+
+author{
+  background:rgb(32,28,44);
+  color:#f1c40f;
+  padding:0 10px;
+  font-size:20px;
+  position:relative; 
+  top:-28px;
+}
+.corner{height:30px;
+  width:30px;
+  border-radius:50%;
+  border:1px solid #fff;
+  transform:rotate(-45deg);  
+  position:absolute;
+  background:rgb(32,28,44);
+}
+
+#left_top{
+  top:-16px;
+  left:-16px;
+  border-color:transparent transparent rgb(12, 216, 12) transparent;
+}
+#right_top{
+  top:-16px;
+  right:-16px;
+  border-color:transparent transparent transparent rgb(12, 216, 12);
+}
+#left_bottom{
+  bottom:-16px;
+  left:-16px;
+  border-color:transparent rgb(12, 216, 12) transparent transparent ;
+}
+#right_bottom{
+  bottom:-16px;
+  right:-16px;
+  border-color:rgb(12, 216, 12) transparent transparent transparent;
+}
+p{padding-top:13px;font-size:18px}
