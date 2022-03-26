@@ -1,4 +1,4 @@
 import { quoteRandom } from "./quoteRandom.js";
-document.getElementById("quote").innerHTML = quoteRandom()[0];
-document.getElementById("author").innerHTML = quoteRandom()[1];
-console.log(quoteRandom());
+const toto = quoteRandom();
+document.getElementById("quote").innerHTML = toto[0];
+document.getElementById("author").innerHTML = toto[1];
