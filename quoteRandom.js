@@ -1,9 +1,11 @@
 function addQuote()
 {
     var quote = new Map();
-    quote.set('La technologie seule ne suffit pas.','Steve Jobs');
-    quote.set('The best way to predict the future is to invent it.','Alan Kay');
-    quote.set('My view is that there is no bad time to inovate.','Jeff Bezos');
+    quote.set('"La technologie seule ne suffit pas."','Steve Jobs');
+    quote.set('"The best way to predict the future is to invent it."','Alan Kay');
+    quote.set('"My view is that there is no bad time to inovate."','Jeff Bezos');
+    quote.set('"Success consists of going from failure to failure without loss of enthusiasm."','Winston Churchill');
+    quote.set('"Imagination is more important than knowledge"','Albert Einstein');
 
     return quote;
 }

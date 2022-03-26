@@ -153,6 +153,22 @@ list {
   margin-bottom: .75rem;
 }
 
+.about_info_2 {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: .5rem;
+  margin-bottom: 2rem;
+}
+
+.about_box_2 {
+  background-color: rgb(32,28,44);
+  border-radius: .75rem;
+  padding: .75rem;
+  color: white;
+  margin-bottom: .75rem;
+  text-align: center;
+}
+
 boxtitle {
   font-size: large;
 }
@@ -282,3 +298,28 @@ author{
   border-color:rgb(12, 216, 12) transparent transparent transparent;
 }
 p{padding-top:13px;font-size:18px}
+
+.button {
+  background-color: rgb(12, 216, 12); /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button5 {
+  background-color: rgb(32,28,44);
+  color: white;
+  border: 2px solid #555555;
+}
+
+.button5:hover {
+  background-color: rgb(32, 148, 32);
+  color: white;
+}
